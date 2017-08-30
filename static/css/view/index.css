@@ -1,0 +1,36 @@
+
+#nav {
+  width: 150px;
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+  box-shadow: 1px 0px 2px #888888;
+}
+
+.nav-item {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.nav-left {
+  list-style: none;
+  padding: 15px;
+  margin: 0;
+  display: block;
+  text-align: center;
+}
+
+.nav-profile {
+    font-size: 15pt;
+    padding-bottom: 15px;
+    border-bottom: 1px black solid;
+}
+
+.nav-profile-image {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 40px;
+  margin-bottom: 15px;
+}
