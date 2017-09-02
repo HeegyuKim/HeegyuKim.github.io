@@ -1,59 +1,46 @@
 
-#nav {
-  width: 150px;
-  height: 100vh;
-  position: fixed;
-  overflow: hidden;
-  box-shadow: 1px 0px 2px #888888;
+#content > section {
+    padding-left: 165px;
+    height: 100vh;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: white;
 }
 
-.nav-item {
-  cursor: pointer;
-  margin-bottom: 20px;
+#sect-intro {
+    background: url("../../image/index/section-heegyu.jpg");
 }
 
-.nav-left {
-  list-style: none;
-  padding: 15px;
-  margin: 0;
-  display: block;
-  text-align: center;
+#sect-travel {
+    background: url("../../image/index/section-travel.jpg");
 }
 
-.nav-bottom {
-  bottom: 0;
-}
-
-.nav-contact {
-  list-style: none;
-  padding: 0;
-  display: inline;
-  margin: 30px;
-  bottom: 100%;
-}
-
-.contact-item {
-  cursor: pointer;
-  display: inline;
-  margin: 7px 7px 0 7px;
-}
-.contact-item img {
-  width: 30px;
-  height: 30px;
+#sect-music {
+    background: url("../../image/index/section-music.jpg");
 }
 
 
-.nav-profile {
-    font-size: 15pt;
-    padding-bottom: 15px;
-    border-bottom: 1px black solid;
+.outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+
+
 }
 
-.nav-profile-image {
-  width: 80px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  border-radius: 40px;
-  margin-bottom: 15px;
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.inner {
+    padding: 15px;
+
+    font-size: 32pt;
+    text-align: center;
+
+    background: rgba(0,0,0,0.5);
 }

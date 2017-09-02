@@ -1,0 +1,92 @@
+#nav {
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+    box-shadow: 1px 0px 1px #888888;
+    background: white;
+}
+
+
+/*
+ Navigation Bar(Left)
+*/
+
+.nav-left {
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+
+.nav-item {
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 20px;
+    transition: width .2s linear, border-bottom .2s linear;
+    width: 50%;
+    margin: 10px auto;
+    padding-bottom: 5px;
+    border-bottom: 3px solid white;
+}
+
+.nav-item:hover {
+    width: 65%;
+    border-bottom: 3px solid #111111;
+}
+
+
+/*
+    Nav-Profile
+*/
+.nav-profile {
+    font-size: 15pt;
+    padding-bottom: 15px;
+    border-bottom: 1px black solid;
+    margin-bottom: 15px;
+}
+
+.nav-profile-image {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 40px;
+    margin-bottom: 15px;
+}
+
+
+
+/*
+    Navigation Bar Bottom Contacts
+*/
+
+.nav-bottom {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.nav-contact {
+    list-style: none;
+    padding: 0;
+    bottom: 100%;
+    width: 120px;
+    margin: auto;
+}
+
+.contact-item {
+    cursor: pointer;
+    display: inline;
+    margin: 3px;
+}
+
+.contact-item img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-item a {
+    text-decoration: none;
+}
