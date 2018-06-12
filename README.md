@@ -1,2 +1,3 @@
-# heegyu.me
-Personal Blog
+# heegyukim.github.io
+
+Modify Jekyll Material Theme

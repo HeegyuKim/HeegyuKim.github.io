@@ -1,0 +1,95 @@
+title: Heegyu Kim
+name: Heegyu Kim
+email: heekue83@gmail.com
+description: Software Developer<br/>Singer-Songwriter<br/>Guitarist, Cellist
+
+baseurl: "/blog"
+url: ""
+
+parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
+parallax_image_two: assets/images/startup3.jpg
+
+project_one: "PlayKeyboard"
+project_one_description: PlayKeyboard is pretty and easy-to-use software keyboard. Support Korean, English languages.
+project_one_url: https://play.google.com/store/apps/details?id=kr.bitbyte.playkeyboard
+project_one_icon: location_on
+
+project_two: Unipen
+project_two_description: Unipen is framework and tutorials documentations for game developers. It gives a lots of knowledgements about basic game math, physics, graphical theory and C++ programming skills.
+project_two_url: https://github.com/HeegyuKim/Unipen
+project_two_icon: photo_camera
+
+
+project_three: 행방불명(Spirit Away)
+project_three_description: Voice-Recognition game. Control the character by your voice. Developed by C# language.
+project_three_url: https://github.com/HeegyuKim/SpiritAway
+project_three_icon: hotel
+
+
+project_four: 둥글레팡!
+project_four_description: 둥글레팡 is single-computer pvp game. Players control the character by their smartphone.
+project_four_url: https://www.youtube.com/watch?v=ilb9QRuhkVI
+project_four_icon: restaurant
+
+portfolio_heading: Portfolio
+portfolio_type: cards
+
+syntax_highlighting: true
+# Skill icons from https://konpa.github.io/devicon/
+
+skills:
+  - name: amazonwebservices
+  - name: photoshop
+  - name: slack
+  - name: atom
+  - name: itellij
+  - name: bitbucket
+  - name: github
+  - name: git
+  - name: gradle
+  - name: java
+  - name: android
+  - name: swift
+  - name: c
+  - name: cplusplus
+  - name: csharp
+  - name: html5
+  - name: css3
+  - name: javascript
+  - name: react
+  - name: python
+  - name: mysql
+  - name: nginx
+  - name: linux
+
+
+icon_size: 50 # font-size of icons in px
+colored: colored # Leave blank for black and white icons
+
+project_button: SEE DETAILS
+
+github: https://github.com/HeegyuKim
+medium: https://blog.naver.com/khk6435 # https://medium.com/@heegyukim
+naver: https://blog.naver.com/khk6435
+
+baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
+url: http://localhost:4000/ #the url of your site
+
+# Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
+tag_manager_id: # This looks something like GTM-XXXXXXX
+google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
+
+cookies_banner: none # The value "show" will show the cookies banner, the value "none" will hide the banner.
+
+cookie_accept_message: Thanks!
+
+syntax_highlighting: true # include the css for syntax highlighting
+
+# Build settings
+markdown: kramdown
+# theme: minima
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-assets
+  - jekyll-minifier
